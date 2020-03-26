@@ -193,3 +193,5 @@ script:
 # # # python
 - echo "==> Python"
 - python -V
+
+- git config -l
