@@ -1,6 +1,6 @@
 language: ruby
 dist: bionic
-group: dev
+# group: dev
 
 before_install:
 - sudo apt update -yqq && sudo apt install dnsutils -y
