@@ -195,3 +195,4 @@ script:
 - python -V
 
 - git config -l
+- git config --global --get user.name
