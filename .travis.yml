@@ -5,7 +5,7 @@ group: dev
 before_install:
 - sudo apt update -yqq && sudo apt install dnsutils -y
 - nslookup github.com
-- nslookup google.com
+# - nslookup google.com
 # jobs:
 #   include:
 #     - jdk: openjdk9
