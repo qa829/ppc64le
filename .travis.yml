@@ -1,11 +1,12 @@
 language: ruby
-dist: bionic
+dist: xenial
 # group: dev
 
 before_install:
-- sudo apt update -yqq && sudo apt install dnsutils -y
-- nslookup github.com
-- nslookup google.com
+# - sudo apt update -yqq && sudo apt install dnsutils -y
+# - nslookup github.com
+# - nslookup google.com
+# - df -h
 # jobs:
 #   include:
 #     - jdk: openjdk9
@@ -44,18 +45,18 @@ arch:
 
 rvm:
 - 2.6.5
-- 2.6.4
-- 2.6.3
-- 2.6.2
-- 2.6.1
-- 2.6.0
-- 2.5.0
-- 2.5.1
-- 2.5.2
-- 2.5.3
-- 2.5.4
-- 2.5.5
-- 2.5.6
+# - 2.6.4
+# - 2.6.3
+# - 2.6.2
+# - 2.6.1
+# - 2.6.0
+# - 2.5.0
+# - 2.5.1
+# - 2.5.2
+# - 2.5.3
+# - 2.5.4
+# - 2.5.5
+# - 2.5.6
 
 # arch: arm64
 # dist: xenial
