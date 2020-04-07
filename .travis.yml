@@ -170,30 +170,30 @@ script:
 - df -h
 - cat /etc/resolv.conf
 
-# Snaps
-- echo "==> Snaps"
-- sudo snap install core || true
-- sudo snap install core
-- sudo snap install hello-world
-- hello-world
+# # Snaps
+# - echo "==> Snaps"
+# - sudo snap install core || true
+# - sudo snap install core
+# - sudo snap install hello-world
+# - hello-world
 
-# Sleep
-#- sleep 600
+# # Sleep
+# #- sleep 600
 
-# Docker
-- echo "==> Docker"
-- docker info
-- docker run hello-world
+# # Docker
+# - echo "==> Docker"
+# - docker info
+# - docker run hello-world
 
-# # # ruby
-- echo "==> Ruby"
-- ruby -v
-#- gem i bundler
-# # #- sleep 120
+# # # # ruby
+# - echo "==> Ruby"
+# - ruby -v
+# #- gem i bundler
+# # # #- sleep 120
 
-# # # python
-- echo "==> Python"
-- python -V
+# # # # python
+# - echo "==> Python"
+# - python -V
 
-- git config -l
-- git config --get user.name
+# - git config -l
+# - git config --get user.name
