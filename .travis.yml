@@ -180,10 +180,10 @@ script:
 # # Sleep
 # #- sleep 600
 
-# # Docker
-# - echo "==> Docker"
-# - docker info
-# - docker run hello-world
+# Docker
+- echo "==> Docker"
+- docker info
+- docker run hello-world
 
 # # # # ruby
 # - echo "==> Ruby"
